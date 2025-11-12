@@ -1,29 +1,30 @@
-**Weather API Client**
+**Weather API Client**\
 A simple Kotlin console application that fetches and displays weather forecasts for multiple cities using the WeatherAPI.com service.
-
+<br>
+<br>
 **Setup & Run**
 1. Clone the repository
+```
 git clone https://github.com/vikmanz/weather-api.git
 cd weather-api
-
+```
 2. Create configuration file
-In the root directory of the project, create a file named config.properties with your WeatherAPI key:
-'''
-api.key=your_api_key_here
-'''
-⚠️ This file is ignored by Git via .gitignore, so your key stays private.
-
-4. Run the project
+In the root directory of the project, create a file named `config.properties` with your WeatherAPI key.\
+This file is ignored by Git via .gitignore, so your key stays private.\
+Format:
+``` 
+api.key=your_api_key_here`
+```
+3. Run the project
 If you’re using Gradle:
+```
 ./gradlew run
-
-Or from IntelliJ IDEA:
-Open the project
-Run the main function in Main.kt
-
-
+```
+Or open the project in IntelliJ IDEA and run the main function in `Main.kt`
+<br>
+<br>
 **Example Output:**
-
+```
 City         | Date         | TempMin    | TempMax    | Humidity   | Wind speed (km/h)  | Wind direction
 --------------------------------------------------------------------------------------------------------
 Chisinau     | 2025-11-13   | 4,4        | 9,4        | 79,0       | 15,8               | NW            
@@ -58,3 +59,4 @@ Amsterdam  | ○ Minimum Temperature (°C): 11.1
            | ○ Wind Speed (kph) (%): 20.2          
            | ○ Wind Direction: S                   
 ---------------------------------------------------
+```
