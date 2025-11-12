@@ -42,12 +42,12 @@ data class Day(
     val maxTemp: Double,
     @SerializedName("avghumidity")
     val humidity: Double,
-    @SerializedName("maxwind_mph")
+    @SerializedName("maxwind_kph")
     val maxWindSpeed: Double
 )
 
 data class Hour(
-    @SerializedName("wind_mph")
+    @SerializedName("wind_kph")
     val windSpeed: Double,
     @SerializedName("wind_dir")
     val windDirection: String

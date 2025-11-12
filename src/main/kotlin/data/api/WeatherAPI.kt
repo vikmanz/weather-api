@@ -13,6 +13,7 @@ interface WeatherAPI {
     fun getForecast(
         @Query("q") query: String,
         @Query("days") days: Int,
+        @Query("dt") date: String,
     ): Call<ForecastDTO>
 
 }
