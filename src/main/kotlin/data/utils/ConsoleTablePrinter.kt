@@ -40,7 +40,7 @@ object ConsoleTablePrinter {
             ${spec.name.padEnd(maxCityNameLength)}${"| ○ Minimum Temperature (°C): ${spec.tempMin}".padEnd(INFO_BLOCK_LENGTH) }
             $nameSpace${"| ○ Maximum Temperature (°C): ${spec.tempMax}".padEnd(INFO_BLOCK_LENGTH) }
             $nameSpace${"| ○ Humidity (%): ${spec.humidity}".padEnd(INFO_BLOCK_LENGTH) }
-            $nameSpace${"| ○ Wind Speed (kph) (%): ${spec.windSpeed}".padEnd(INFO_BLOCK_LENGTH) }
+            $nameSpace${"| ○ Wind Speed (kph): ${spec.windSpeed}".padEnd(INFO_BLOCK_LENGTH) }
             $nameSpace${"| ○ Wind Direction: ${spec.windDirection}".padEnd(INFO_BLOCK_LENGTH) }
             $separator
         """.trimIndent()

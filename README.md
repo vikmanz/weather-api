@@ -38,25 +38,25 @@ City       | 2025-11-13
 Chisinau   | ○ Minimum Temperature (°C): 4.4       
            | ○ Maximum Temperature (°C): 9.4       
            | ○ Humidity (%): 79.0                  
-           | ○ Wind Speed (kph) (%): 15.8          
+           | ○ Wind Speed (kph): 15.8          
            | ○ Wind Direction: NW                  
 ---------------------------------------------------
 Madrid     | ○ Minimum Temperature (°C): 12.5      
            | ○ Maximum Temperature (°C): 18.6      
            | ○ Humidity (%): 55.0                  
-           | ○ Wind Speed (kph) (%): 34.9          
+           | ○ Wind Speed (kph): 34.9          
            | ○ Wind Direction: SE                  
 ---------------------------------------------------
 Kyiv       | ○ Minimum Temperature (°C): 4.9       
            | ○ Maximum Temperature (°C): 8.2       
            | ○ Humidity (%): 76.0                  
-           | ○ Wind Speed (kph) (%): 13.3          
+           | ○ Wind Speed (kph): 13.3          
            | ○ Wind Direction: SSW                 
 ---------------------------------------------------
 Amsterdam  | ○ Minimum Temperature (°C): 11.1      
            | ○ Maximum Temperature (°C): 15.5      
            | ○ Humidity (%): 78.0                  
-           | ○ Wind Speed (kph) (%): 20.2          
+           | ○ Wind Speed (kph): 20.2          
            | ○ Wind Direction: S                   
 ---------------------------------------------------
 ```
