@@ -1,6 +1,6 @@
 package com.vikmanz.data.api
 
-import data.dto.ForecastDTO
+import com.vikmanz.data.dto.ForecastDTO
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Headers

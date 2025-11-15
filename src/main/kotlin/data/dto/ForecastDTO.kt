@@ -1,7 +1,6 @@
-package data.dto
+package com.vikmanz.data.dto
 
 import com.google.gson.annotations.SerializedName
-import com.vikmanz.data.dto.CitySpecs
 
 data class ForecastDTO(
     val location: Location,
